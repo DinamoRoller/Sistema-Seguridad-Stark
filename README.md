@@ -23,9 +23,9 @@ Implementar un sistema de seguridad concurrente capaz de:
 
 El sistema se basa en el ecosistema de Spring Boot con varios módulos integrados:
 
-#### Spring Web:  Maneja las peticiones REST (API para sensores).
-Spring Data JPA + H2	Persistencia en base de datos en memoria para registrar los eventos.
-Spring Security	Control de acceso y autenticación por roles (ADMIN / OPERATOR).
-Spring WebSocket	Comunicación en tiempo real para envío de alertas.
-Spring Actuator	Monitorización y métricas del sistema.
-@Async / @Scheduled	Procesamiento concurrente y generación automática de eventos.
+#### Spring Web: Maneja las peticiones REST (API para sensores).
+#### Spring Data JPA + H2: Persistencia en base de datos en memoria para registrar los eventos.
+#### Spring Security: Control de acceso y autenticación por roles (ADMIN / OPERATOR).
+#### Spring WebSocket: Comunicación en tiempo real para envío de alertas.
+#### Spring Actuator: Monitorización y métricas del sistema.
+#### @Async / @Scheduled: Procesamiento concurrente y generación automática de eventos.
