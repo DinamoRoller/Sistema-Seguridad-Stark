@@ -92,9 +92,15 @@ Los eventos se guardan en base de datos y, si son críticos, se notifican al pan
 Se recomienda tener instaladas las siguientes dependencias para garantizar el correcto funcionamiento del código
 
 Spring web
+
 Spring Data JPA
+
 H2 Database
+
 Spring Security
+
 Spring WebSocket
+
 Spring Boot Actuator
+
 Lombok (opcional)
