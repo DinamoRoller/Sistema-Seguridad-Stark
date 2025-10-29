@@ -29,3 +29,28 @@ El sistema se basa en el ecosistema de Spring Boot con varios módulos integrado
 #### Spring WebSocket: Comunicación en tiempo real para envío de alertas.
 #### Spring Actuator: Monitorización y métricas del sistema.
 #### @Async / @Scheduled: Procesamiento concurrente y generación automática de eventos.
+
+## Tecnologías utilizadas
+
+- Java 17+
+- Spring Boot 3.x
+- Maven
+- H2 Database (en memoria)
+- Lombok (opcional)
+- HTML
+
+## Estructura del proyecto
+
+src/
+ main/
+   java/com/stark/sistemaseguridad/
+       SistemaSeguridadApplication.java     -> Clase principal
+       config                               -> Configuración (seguridad, async, websocket)
+       controller                           -> Endpoints REST y autenticación
+       model                                -> Entidades JPA (SensorEvent)
+       repository                           -> Repositorios de datos
+       service                              -> Lógica concurrente y notificaciones
+       websocket                            -> Configuración de canales WebSocket
+    resources
+        static/index.html                   -> Interfaz web del sistema
+        application.properties              -> Configuración general
