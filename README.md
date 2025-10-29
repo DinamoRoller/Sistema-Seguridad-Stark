@@ -56,3 +56,13 @@ src/
     resources
         static/index.html                   -> Interfaz web del sistema
         application.properties              -> Configuración general
+
+## Usuarios y roles
+
+El sistema ya tiene dos tipos de usuarios cargados en memoria:
+
+Usuario     Contraseña
+admin       1234
+tecnico     12345
+
+Los usuarios se pueden modificar en la clase SecurityConfig.java.
