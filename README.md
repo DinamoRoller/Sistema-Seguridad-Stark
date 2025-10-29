@@ -1,4 +1,12 @@
 # Sistema-Seguridad-Stark
+
+## Desarrolladores
+
+Administrador de Sistemas: Suren Joorablou Hashemi Alam    
+Ingeniero de Seguridad: Suren Joorablou Hashemi Alam
+Desarrollador Frontend: Cintia Santillán García
+Desarrollador Backend: María Díaz-Heredero López
+ 
 ## Sistema de Seguridad Inteligente
 
 Proyecto desarrollado en Java con Spring Boot como parte del trabajo práctico de concurrencia, seguridad y comunicación en tiempo real.
@@ -68,3 +76,12 @@ admin       1234
 tecnico     12345
 
 Los usuarios se pueden modificar en la clase SecurityConfig.java.
+
+## Procesamiento concurrente
+
+Los sensores se simulan mediante la clase SensorSimulatorService, que genera eventos cada 5 segundos.
+
+Cada evento se procesa de forma asíncrona con @Async usando un ThreadPoolTaskExecutor.
+
+Los eventos se guardan en base de datos y, si son críticos, se notifican al panel en tiempo real.
+
