@@ -1,5 +1,5 @@
 # Sistema-Seguridad-Stark
-Sistema de Seguridad Inteligente - Stark Industries
+## Sistema de Seguridad Inteligente - Stark Industries
 
 Proyecto desarrollado en Java con Spring Boot como parte del trabajo práctico de concurrencia, seguridad y comunicación en tiempo real.
 El sistema simula una red de sensores inteligentes (movimiento, acceso, temperatura) que se comunican de forma concurrente con un servidor central para detectar posibles intrusiones y emitir alertas inmediatas.
