@@ -42,18 +42,17 @@ El sistema se basa en el ecosistema de Spring Boot con varios módulos integrado
 ## Estructura del proyecto
 
 src/
-
- main/
- 
-   java/com/stark/sistemaseguridad/
+   main/
+     java/com/stark/sistemaseguridad/
    
-       SistemaSeguridadApplication.java -> Clase principal
-       config -> Configuración (seguridad, async, websocket)
+       SistemaSeguridadApplication.java     -> Clase principal
+       config                               -> Configuración (seguridad, async, websocket)
        controller                           -> Endpoints REST y autenticación
        model                                -> Entidades JPA (SensorEvent)
        repository                           -> Repositorios de datos
        service                              -> Lógica concurrente y notificaciones
        websocket                            -> Configuración de canales WebSocket
+       
     resources
         static/index.html                   -> Interfaz web del sistema
         application.properties              -> Configuración general
