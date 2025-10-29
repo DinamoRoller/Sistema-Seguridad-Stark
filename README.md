@@ -2,12 +2,11 @@
 
 ## Desarrolladores
 
-Administrador de Sistemas: Suren Joorablou Hashemi Alam    
+Administrador de Sistemas: Suren Joorablou Hashemi Alam   
 Ingeniero de Seguridad: Suren Joorablou Hashemi Alam
-
 Desarrollador Frontend: Cintia Santillán García
 Desarrollador Backend: María Díaz-Heredero López
- 
+
 ## Sistema de Seguridad Inteligente
 
 Proyecto desarrollado en Java con Spring Boot como parte del trabajo práctico de concurrencia, seguridad y comunicación en tiempo real.
