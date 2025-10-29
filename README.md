@@ -4,6 +4,7 @@
 
 Administrador de Sistemas: Suren Joorablou Hashemi Alam    
 Ingeniero de Seguridad: Suren Joorablou Hashemi Alam
+
 Desarrollador Frontend: Cintia Santillán García
 Desarrollador Backend: María Díaz-Heredero López
  
